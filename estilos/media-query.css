@@ -1,0 +1,30 @@
+@charset 'UTF-8';
+
+@media screen and (min-width: 600px) {
+    body{
+        background-color: aqua;
+    }
+
+    .tela-login{
+        width: 90%;
+        height: 400px;
+        display: grid;
+        grid-template-columns: 200px auto ;
+    }
+
+    .imagem{
+        height:100%;
+    }
+    
+    .formulario{
+        display: grid;
+        align-items: center;
+    }
+
+    .textos{
+        font-size: 1.4em;
+        margin: 0px 10px;
+    }
+
+    }
+}
