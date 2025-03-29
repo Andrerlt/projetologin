@@ -36,19 +36,19 @@ Lilás: #5f2c82
 @media screen and (min-width:801px) {
 
     body{
-        background-color: aliceblue;
-        backgound: linear-gradient(to top, #49a09d, #5f2c82 );
+        background: linear-gradient(to top, #49a09d, #5f2c82 );
     }
 
     .tela-login{
-        width: 90%;
+        width: 60%;
         height: 400px;
-        display: grid;
-        grid-template-columns: 200px auto ;
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     .imagem{
         height:100%;
+        width: 400px;
     }
     
     .formulario{
