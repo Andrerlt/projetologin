@@ -76,3 +76,7 @@ input::placeholder{
     color: rgba(0, 0, 0, 0.685);
     font-size: 15px;
 }
+
+.botoes{
+    background-color: #5f2c82;
+}
