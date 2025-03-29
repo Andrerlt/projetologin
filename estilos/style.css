@@ -63,6 +63,8 @@ main{
     border: none;
     text-align: center;
     background-color: #49a09d;
+    color: white;
+    
 }
 
 label{
@@ -73,10 +75,28 @@ label{
 }
 
 input::placeholder{
-    color: rgba(0, 0, 0, 0.685);
+    color: rgba(255, 255, 255, 0.61);
     font-size: 15px;
 }
 
 .botoes{
+    width: 90%;
+    height: 25vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=submit],[type=reset] {
+    height: 45px;
+    margin: 5px 0px ;
+    border-radius: 10px;
+    background-color:#5f2c82;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+ }
+
+div.botoes > a {
     background-color: #5f2c82;
 }
